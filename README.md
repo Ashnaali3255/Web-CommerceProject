@@ -78,12 +78,12 @@ Update database connection in PHP files
 
 📸 Screenshots
 
-![Home](image.png)
-![Cart](image-1.png)
-![Checkout](image-2.png)
-![Database](image-3.png)
-![Order Table](image-4.png)
-![Products Table](image-5.png)
+![Home](./screenshots/image.png)
+![Cart](./screenshots/image-1.png)
+![Checkout](./screenshots/image-2.png)
+![Database](./screenshots/image-3.png)
+![Order Table](./screenshots/image-4.png)
+![Products Table](./screenshots/image-5.png)
 
 👩‍💻 Developer
 Name: Ashna Ali (Group 2)
