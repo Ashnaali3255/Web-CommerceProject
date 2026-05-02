@@ -85,6 +85,9 @@ Update database connection in PHP files
 ![Order Table](./screenshots/image-4.png)
 ![Products Table](./screenshots/image-5.png)
 
+LIVE VIDEO DEMO
+https://www.loom.com/share/7fdd0497110947f5af289c6e87f9a893
+
 👩‍💻 Developer
 Name: Ashna Ali (Group 2)
 Project: Web Commerce System
