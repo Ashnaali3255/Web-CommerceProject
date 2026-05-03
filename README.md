@@ -1,102 +1,186 @@
-### 🛒 Web Commerce Project
+<a name="readme-top"></a>
+# 📗 Table of Contents
 
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [🎥 Video Demo](#video-demo)
+- [💻 Getting Started](#getting-started)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## 📖 About The Project
+# 📖 Web Commerce Project <a name="about-project"></a>
 
-The **Web Commerce Project** is a full-stack e-commerce web application built using **HTML, CSS, JavaScript (Frontend)** and **PHP & MySQL (Backend)** using XAMPP.
+The **Web Commerce Project** is a full-stack e-commerce web application designed to simulate an online shopping experience. It allows users to browse products, add items to cart, and manage basic shopping functionalities.
 
-It allows users to browse products, manage shopping cart functionality, and perform basic e-commerce operations.
+This project is built for learning and practical implementation of full-stack development using **PHP, MySQL, HTML, CSS, and JavaScript**.
 
----
-
-## 🚀 Features
-
-- 🛍️ Product listing page  
-- 🛒 Add to cart system  
-- 🔐 Basic backend integration (PHP)  
-- 🗄️ MySQL database connectivity  
-- 🎨 Responsive and simple UI design  
-- ⚡ Fast local development using XAMPP  
-
----
-
-## 🧰 Tech Stack
-
-**Frontend:**
-- HTML5
-- CSS3
-- JavaScript
-
-**Backend:**
-- PHP
-
-**Database:**
-- MySQL (phpMyAdmin via XAMPP)
-
-**Tools:**
-- XAMPP Server
-- Git & GitHub
-- VS Code
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 📁 Project Structure
+## 🛠 Built With <a name="built-with"></a>
 
-backend/
-│
-├── frontend/ # HTML, CSS, JS files
-├── backend/ # PHP logic files
-├── database/ # SQL database file (if any)
-└── README.md
+### Tech Stack
 
+- HTML5  
+- CSS3  
+- JavaScript  
+- PHP  
+- MySQL (XAMPP)  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## ⚙️ Installation & Setup
+## 🔭 Key Features <a name="key-features"></a>
 
-### 1. Clone the repository
+🛍️ E-Commerce Features
+- [ ] Product listing system  
+- [ ] Add to cart functionality  
+- [ ] View cart items  
+- [ ] Basic checkout flow  
+
+🗄️ Backend Features
+- [ ] PHP-based backend logic  
+- [ ] MySQL database integration  
+- [ ] Data storage and retrieval  
+
+🎨 UI Features
+- [ ] Clean and simple interface  
+- [ ] Responsive design  
+- [ ] Easy navigation  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+👉 Live Demo (if hosted):  
+https://ashnaali3255.github.io/Web-CommerceProject/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🎥 Video Demo <a name="video-demo"></a>
+
+🎬 Watch Project Demo:  
+[(Video link)](https://www.loom.com/share/7fdd0497110947f5af289c6e87f9a893)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+- XAMPP Server  
+- Git  
+- Browser (Chrome recommended)  
+
+---
+
+### Setup
+
+Clone the repository:
+
 ```bash
 git clone https://github.com/Ashnaali3255/Web-CommerceProject.git
+````
 
-2. Move project to XAMPP directory
+---
 
-Place the folder inside:
+### Run Project
 
+1. Move project to:
+
+```
 C:\xampp\htdocs\
+```
 
-3. Start XAMPP
-Start Apache
-Start MySQL
-4. Run project in browser
-http://localhost/backend/frontend
+2. Start XAMPP:
 
-🗄️ Database Setup
-Open phpMyAdmin
-Create a new database (e.g. web_commerce)
-Import .sql file (if included in project)
-Update database connection in PHP files
+* Apache ON
+* MySQL ON
 
-📸 Screenshots
+3. Open browser:
 
-![Home](./screenshots/image.png)
-![Cart](./screenshots/image-1.png)
-![Checkout](./screenshots/image-2.png)
-![Database](./screenshots/image-3.png)
-![Order Table](./screenshots/image-4.png)
-![Products Table](./screenshots/image-5.png)
+```
+(http://localhost/phpmyadmin/index.php?route=/database/structure&db=ecommerce_db)
+```
 
-LIVE VIDEO DEMO
-https://www.loom.com/share/7fdd0497110947f5af289c6e87f9a893
+---
 
-👩‍💻 Developer
-Name: Ashna Ali (Group 2)
-Project: Web Commerce System
-Role: Full Stack Development (Frontend + Backend)
+### Database Setup
 
-🌟 Future Improvements
+1. Open phpMyAdmin
+2. Create database (e.g. `ecommerce_db`)
+3. Import `.sql` file (if available)
+4. Update DB connection in PHP files
 
-User login & authentication system
-Payment gateway integration
-Admin dashboard
-Product search & filtering
-Better UI/UX design
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Ashna Ali**
+
+* GitHub: [@Ashnaali3255](https://github.com/Ashnaali3255)
+* LinkedIn: [Ashna Ali](https://www.linkedin.com/in/ashna-ali-342151255/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🔭 Future Features <a name="future-features"></a>
+
+* [ ] User authentication system
+* [ ] Payment gateway integration
+* [ ] Order history
+* [ ] Product search & filters
+* [ ] Admin dashboard
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please give it a ⭐️ on GitHub.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🙏 Acknowledgements <a name="acknowledgements"></a>
+
+I would like to thank teachers, online resources, and the open-source community for guidance.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 📝 License <a name="license"></a>
+
+This project is licensed under the MIT License.
